@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<!--timestamp=1671818204-->
+<!--timestamp=1671960895-->
 
 <head>
   <meta charset="UTF-8">
@@ -21,14 +21,14 @@
   <meta property="og:url" content="https://is.spark.released.info" />
   <meta property="og:type" content="website" />
   <meta property="og:title" content="Is Apache Spark 3.4 Released?" />
-  <meta property="og:description" content="There is no information about Apache Spark 3.4 release! Still waiting! #released.info" />
+  <meta property="og:description" content="Apache Spark 3.4 will be released in 65 days! #released.info" />
   <meta property="og:image" content="https://released.info/assets/img/technologies/spark/spark-logo.png" />
 
   <!-- twitter -->
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="ReleasedInfo" />
   <meta name="twitter:title" content="Is Apache Spark 3.4 Released?" />
-  <meta name="twitter:description" content="There is no information about Apache Spark 3.4 release! Still waiting! #released.info" />
+  <meta name="twitter:description" content="Apache Spark 3.4 will be released in 65 days! #released.info" />
   <meta name="twitter:image" content="https://released.info/assets/img/technologies/spark/spark-logo.png" />
 
   <meta name="url" content="https://is.spark.released.info" />
@@ -45,7 +45,7 @@
 
 <body>
 
-  <input id="released-days" type="hidden" value="-1" />
+  <input id="released-days" type="hidden" value="65" />
 
   <main role="main">
     <a href="https://released.info/index.html" class="go-back"><i class="bi bi-arrow-left"></i></a>
@@ -84,13 +84,13 @@
             <!-- CHOOSE ONE OF BELOW SECTIONS HERE -->
 
             
-            
-            
             <span>
-              <div class="white-box" id="no-information">
-                No information
+              <div class="odometer-content" id="counter">
+                <div id="odometer"></div>
               </div>
             </span>
+            
+            
 
             <!-- END -->
 
@@ -99,7 +99,7 @@
         <div class="row">
           <div class="col-lg-8">
             <h3 id="highlightTextDescription1">
-              <span class="btn-primary">In August 2021</span> Apache Spark 3.4 will get release candidates (RC)
+              <span class="btn-primary">In February 2023</span> Apache Spark 3.4 will get release candidates (RC)
             </h3>
           </div>
           <div class="col-lg-8">
@@ -248,7 +248,10 @@
     <section class="about-section">
       <div class="container-lg">
         <div>
-  <h2>About Apache Spark</h2>
+  <h1>Version</h1>
+  You can check the version of Spark you are using by running the following command in the terminal:
+  <pre>spark-shell --version</pre>
+  <h1>About Apache Spark</h1>
   Apache Spark is a framework that, like with all of Apache endorsed projects, is open-source, which means that it has
   an extremely active
   community of users and developers that need not be direct employees of Spark. Nevertheless, Spark was originally
